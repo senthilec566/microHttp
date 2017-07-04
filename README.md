@@ -4,7 +4,7 @@
 ## How it works ?
    μicroHttp Server accepts events from multiple sources , validates , process and respond to clients
    
-   ![WorkFlow](https://git.source.akamai.com/projects/PERFAN/repos/microhttp/browse/images/microHttp_DataFlow.png?raw=true "Data Flow")
+   ![WorkFlow](https://github.com/senthilec566/microHttp/blob/master/images/microHttp_DataFlow.png?raw=true "Data Flow")
 
 ## Supported DataStores 
    It supports Kafka and Cassandra Store 
