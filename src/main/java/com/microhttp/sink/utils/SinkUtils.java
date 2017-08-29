@@ -20,7 +20,7 @@ import com.microhttp.sink.persistence.PersistenceStoreFactory;
 
 /**
  * Utility API for Data Collector Process 
- * @author skalaise
+ * @author senthilec566
  *
  */
 public class SinkUtils {
