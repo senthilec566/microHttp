@@ -12,7 +12,7 @@ import io.netty.handler.ssl.SslContext;
 
 /**
  * ChannelInitializer 
- * @author skalaise
+ * @author senthilec566
  *
  */
 public class NettyServerInitializer extends ChannelInitializer<SocketChannel> {
