@@ -17,7 +17,7 @@ import io.netty.handler.ssl.util.SelfSignedCertificate;
 
 /**
  * Netty based Http(s) Server 
- * @author skalaise
+ * @author senthilec566
  *
  */
 public class NettyServer {
