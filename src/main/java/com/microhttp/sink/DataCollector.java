@@ -9,15 +9,7 @@ import com.microhttp.sink.utils.SinkUtils;
 
 /**
  * Data Collector this accept only POST events
- * Collects data from different systems and persist in Kafka or Cassandra etc.
- * <example>
- * Ghost or LLDC can directly send events to DataCollector 
- * POST --data {event} https://datacollector/collect/logs/
- * This server responsible for 
- * 1) Accept the incoming request from trusted source  
- * 2) Valdiate if any rules
- * 3) Write it to Kafka or Cassandra 
- * </example>
+ * Collects data from different systems and persist in Kafka or Cassandra etc
  * @author skalaise
  *
  */
