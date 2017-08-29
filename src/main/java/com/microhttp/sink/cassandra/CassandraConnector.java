@@ -7,7 +7,7 @@ import com.microhttp.sink.utils.SinkUtils;
 
 /**
  * Cassandra Server Connector Singleton instance 
- * @author skalaise
+ * @author senthilec566
  *
  */
 public enum CassandraConnector {
