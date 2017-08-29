@@ -9,7 +9,7 @@ import com.microhttp.sink.utils.SinkUtils;
 
 /**
  * Cassandra API to insert values into stream table 
- * @author skalaise
+ * @author senthilec566
  *
  */
 public class CassandraPersistenceImpl implements PersistenceStoreType {
