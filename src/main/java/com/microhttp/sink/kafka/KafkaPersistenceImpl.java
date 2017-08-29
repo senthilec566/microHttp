@@ -21,15 +21,15 @@ public class KafkaPersistenceImpl  implements PersistenceStoreType {
 		final ProducerRecord<Long, String> record =  new ProducerRecord<Long,String>(SinkUtils.kafkaProps.getProperty("topic"),
 													 null, now, now,  data);
 		try{
-			_producer.send(record);
-				/*, new Callback() {
+			_producer.send(record
+				, new Callback() {
 				@Override
 				public void onCompletion(RecordMetadata metaData, Exception ex) {
 					if (ex != null) {
 						_log.log(Level.SEVERE, ex.getMessage());
 					}
 				}
-			});*/
+			});
 			persisted = true;
 		}catch(Exception ex ){
 			_log.log(Level.SEVERE, ex.getMessage());
